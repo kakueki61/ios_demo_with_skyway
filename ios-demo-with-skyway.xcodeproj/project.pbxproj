@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55F340D747D2B47CFD378E02 /* Pods_ios_demo_with_skywayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F781FF4138DF5757A70DA24 /* Pods_ios_demo_with_skywayUITests.framework */; };
 		58FC11651E813793009EE06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FC11641E813793009EE06A /* AppDelegate.swift */; };
 		58FC11671E813793009EE06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FC11661E813793009EE06A /* ViewController.swift */; };
 		58FC116A1E813793009EE06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FC11681E813793009EE06A /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		58FC116F1E813793009EE06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FC116D1E813793009EE06A /* LaunchScreen.storyboard */; };
 		58FC117A1E813793009EE06A /* ios_demo_with_skywayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FC11791E813793009EE06A /* ios_demo_with_skywayTests.swift */; };
 		58FC11851E813793009EE06A /* ios_demo_with_skywayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FC11841E813793009EE06A /* ios_demo_with_skywayUITests.swift */; };
+		58FC11981E81541B009EE06A /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FC11971E81541B009EE06A /* Core.swift */; };
+		58FC119A1E8154DD009EE06A /* PeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FC11991E8154DD009EE06A /* PeerManager.swift */; };
+		854605D93323B8749C070548 /* Pods_ios_demo_with_skywayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61DD5F4D42C820E585E00AC /* Pods_ios_demo_with_skywayTests.framework */; };
+		C578000BCF0792997D71C325 /* Pods_ios_demo_with_skyway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC9CA6CEC52AD45E41B165E /* Pods_ios_demo_with_skyway.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D1BBD0CE7634DD522E76EF /* Pods-ios-demo-with-skywayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-demo-with-skywayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-demo-with-skywayUITests/Pods-ios-demo-with-skywayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F457147577E01DC730FCEEF /* Pods-ios-demo-with-skywayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-demo-with-skywayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-demo-with-skywayUITests/Pods-ios-demo-with-skywayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		482372CA7B272872B8823B4F /* Pods-ios-demo-with-skyway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-demo-with-skyway.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-demo-with-skyway/Pods-ios-demo-with-skyway.debug.xcconfig"; sourceTree = "<group>"; };
+		4F781FF4138DF5757A70DA24 /* Pods_ios_demo_with_skywayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_demo_with_skywayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FC11611E813793009EE06A /* ios-demo-with-skyway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-demo-with-skyway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FC11641E813793009EE06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58FC11661E813793009EE06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,14 @@
 		58FC11801E813793009EE06A /* ios-demo-with-skywayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-demo-with-skywayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FC11841E813793009EE06A /* ios_demo_with_skywayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_demo_with_skywayUITests.swift; sourceTree = "<group>"; };
 		58FC11861E813793009EE06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FC11971E81541B009EE06A /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		58FC11991E8154DD009EE06A /* PeerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerManager.swift; sourceTree = "<group>"; };
+		58FC119B1E815538009EE06A /* ios-demo-with-skyway-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-demo-with-skyway-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E3633E1F3B27584FE57FAB9 /* Pods-ios-demo-with-skywayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-demo-with-skywayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-demo-with-skywayTests/Pods-ios-demo-with-skywayTests.release.xcconfig"; sourceTree = "<group>"; };
+		A61DD5F4D42C820E585E00AC /* Pods_ios_demo_with_skywayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_demo_with_skywayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC9CA6CEC52AD45E41B165E /* Pods_ios_demo_with_skyway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_demo_with_skyway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB1B1C8F1E97CA623B637A9 /* Pods-ios-demo-with-skywayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-demo-with-skywayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-demo-with-skywayTests/Pods-ios-demo-with-skywayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E7BB3E7F5B45B36EE99138 /* Pods-ios-demo-with-skyway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-demo-with-skyway.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-demo-with-skyway/Pods-ios-demo-with-skyway.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C578000BCF0792997D71C325 /* Pods_ios_demo_with_skyway.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854605D93323B8749C070548 /* Pods_ios_demo_with_skywayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +87,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F340D747D2B47CFD378E02 /* Pods_ios_demo_with_skywayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5135DA847CFAE81AFDBB07EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				482372CA7B272872B8823B4F /* Pods-ios-demo-with-skyway.debug.xcconfig */,
+				F6E7BB3E7F5B45B36EE99138 /* Pods-ios-demo-with-skyway.release.xcconfig */,
+				DAB1B1C8F1E97CA623B637A9 /* Pods-ios-demo-with-skywayTests.debug.xcconfig */,
+				5E3633E1F3B27584FE57FAB9 /* Pods-ios-demo-with-skywayTests.release.xcconfig */,
+				3F457147577E01DC730FCEEF /* Pods-ios-demo-with-skywayUITests.debug.xcconfig */,
+				01D1BBD0CE7634DD522E76EF /* Pods-ios-demo-with-skywayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		58FC11581E813792009EE06A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				58FC11781E813793009EE06A /* ios-demo-with-skywayTests */,
 				58FC11831E813793009EE06A /* ios-demo-with-skywayUITests */,
 				58FC11621E813793009EE06A /* Products */,
+				5135DA847CFAE81AFDBB07EE /* Pods */,
+				D24CB4EB3BD9FBA2D9C5842E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +132,14 @@
 		58FC11631E813793009EE06A /* ios-demo-with-skyway */ = {
 			isa = PBXGroup;
 			children = (
+				58FC11931E813AE1009EE06A /* core */,
 				58FC11641E813793009EE06A /* AppDelegate.swift */,
 				58FC11661E813793009EE06A /* ViewController.swift */,
 				58FC11681E813793009EE06A /* Main.storyboard */,
 				58FC116B1E813793009EE06A /* Assets.xcassets */,
 				58FC116D1E813793009EE06A /* LaunchScreen.storyboard */,
 				58FC11701E813793009EE06A /* Info.plist */,
+				58FC119B1E815538009EE06A /* ios-demo-with-skyway-Bridging-Header.h */,
 			);
 			path = "ios-demo-with-skyway";
 			sourceTree = "<group>";
@@ -125,6 +162,33 @@
 			path = "ios-demo-with-skywayUITests";
 			sourceTree = "<group>";
 		};
+		58FC11931E813AE1009EE06A /* core */ = {
+			isa = PBXGroup;
+			children = (
+				58FC11941E813B5F009EE06A /* skyway */,
+				58FC11971E81541B009EE06A /* Core.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		58FC11941E813B5F009EE06A /* skyway */ = {
+			isa = PBXGroup;
+			children = (
+				58FC11991E8154DD009EE06A /* PeerManager.swift */,
+			);
+			path = skyway;
+			sourceTree = "<group>";
+		};
+		D24CB4EB3BD9FBA2D9C5842E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC9CA6CEC52AD45E41B165E /* Pods_ios_demo_with_skyway.framework */,
+				A61DD5F4D42C820E585E00AC /* Pods_ios_demo_with_skywayTests.framework */,
+				4F781FF4138DF5757A70DA24 /* Pods_ios_demo_with_skywayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58FC11891E813793009EE06A /* Build configuration list for PBXNativeTarget "ios-demo-with-skyway" */;
 			buildPhases = (
+				AA9FFA8D2B7E8ED1B9C43A72 /* [CP] Check Pods Manifest.lock */,
 				58FC115D1E813792009EE06A /* Sources */,
 				58FC115E1E813792009EE06A /* Frameworks */,
 				58FC115F1E813792009EE06A /* Resources */,
+				8626BB41906C3F2A44234A4A /* [CP] Embed Pods Frameworks */,
+				C7F16621EB243967F93D78A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58FC118C1E813793009EE06A /* Build configuration list for PBXNativeTarget "ios-demo-with-skywayTests" */;
 			buildPhases = (
+				49CDB59EBD5CC07C1200B9B6 /* [CP] Check Pods Manifest.lock */,
 				58FC11711E813793009EE06A /* Sources */,
 				58FC11721E813793009EE06A /* Frameworks */,
 				58FC11731E813793009EE06A /* Resources */,
+				B6E63F127A5E8BCAA4A6DE70 /* [CP] Embed Pods Frameworks */,
+				ECBCC51A08789555ACEB30EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58FC118F1E813793009EE06A /* Build configuration list for PBXNativeTarget "ios-demo-with-skywayUITests" */;
 			buildPhases = (
+				AAD6CFEE5B7A8E531CFE5984 /* [CP] Check Pods Manifest.lock */,
 				58FC117C1E813793009EE06A /* Sources */,
 				58FC117D1E813793009EE06A /* Frameworks */,
 				58FC117E1E813793009EE06A /* Resources */,
+				E48DB0D296BF3D9A1C4B5EB3 /* [CP] Embed Pods Frameworks */,
+				64B8BD7CFF54A0998BB9D566 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +330,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49CDB59EBD5CC07C1200B9B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64B8BD7CFF54A0998BB9D566 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-demo-with-skywayUITests/Pods-ios-demo-with-skywayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8626BB41906C3F2A44234A4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-demo-with-skyway/Pods-ios-demo-with-skyway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9FFA8D2B7E8ED1B9C43A72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD6CFEE5B7A8E531CFE5984 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6E63F127A5E8BCAA4A6DE70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-demo-with-skywayTests/Pods-ios-demo-with-skywayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F16621EB243967F93D78A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-demo-with-skyway/Pods-ios-demo-with-skyway-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E48DB0D296BF3D9A1C4B5EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-demo-with-skywayUITests/Pods-ios-demo-with-skywayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBCC51A08789555ACEB30EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-demo-with-skywayTests/Pods-ios-demo-with-skywayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58FC115D1E813792009EE06A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FC11981E81541B009EE06A /* Core.swift in Sources */,
 				58FC11671E813793009EE06A /* ViewController.swift in Sources */,
 				58FC11651E813793009EE06A /* AppDelegate.swift in Sources */,
+				58FC119A1E8154DD009EE06A /* PeerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +577,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -406,6 +620,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -413,6 +628,7 @@
 		};
 		58FC118A1E813793009EE06A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482372CA7B272872B8823B4F /* Pods-ios-demo-with-skyway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YJD3YQ6P48;
@@ -420,12 +636,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.kakueki61.ios-demo-with-skyway";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ios-demo-with-skyway/ios-demo-with-skyway-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		58FC118B1E813793009EE06A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E7BB3E7F5B45B36EE99138 /* Pods-ios-demo-with-skyway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YJD3YQ6P48;
@@ -433,12 +651,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.kakueki61.ios-demo-with-skyway";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ios-demo-with-skyway/ios-demo-with-skyway-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		58FC118D1E813793009EE06A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB1B1C8F1E97CA623B637A9 /* Pods-ios-demo-with-skywayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +674,7 @@
 		};
 		58FC118E1E813793009EE06A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3633E1F3B27584FE57FAB9 /* Pods-ios-demo-with-skywayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +690,7 @@
 		};
 		58FC11901E813793009EE06A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F457147577E01DC730FCEEF /* Pods-ios-demo-with-skywayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YJD3YQ6P48;
@@ -483,6 +705,7 @@
 		};
 		58FC11911E813793009EE06A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D1BBD0CE7634DD522E76EF /* Pods-ios-demo-with-skywayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YJD3YQ6P48;
@@ -514,6 +737,7 @@
 				58FC118B1E813793009EE06A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58FC118C1E813793009EE06A /* Build configuration list for PBXNativeTarget "ios-demo-with-skywayTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +746,7 @@
 				58FC118E1E813793009EE06A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58FC118F1E813793009EE06A /* Build configuration list for PBXNativeTarget "ios-demo-with-skywayUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +755,7 @@
 				58FC11911E813793009EE06A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

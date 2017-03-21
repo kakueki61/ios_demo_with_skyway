@@ -1,0 +1,6 @@
+tags
+/Pods
+/*.xcworkspace
+xcuserdata
+.DS_Store
+/build
